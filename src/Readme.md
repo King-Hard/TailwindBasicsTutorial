@@ -13,3 +13,6 @@ sm, base, lg, and xl. Sm natin is small, base is meduim, lg is large, and xl ext
 
 # Background Color
 1, bg - syntaxt(bg-color-shade) same lang with text color 
+
+# Padding and Margin
+1, 
