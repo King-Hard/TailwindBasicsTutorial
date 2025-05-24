@@ -1,10 +1,8 @@
-export default {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {
-      fontFamily: {
-        verdana: ['Verdana', 'Geneva', 'sans-serif'],
-      },
-    },
+    extend: {},
   },
   plugins: [],
-};
+}
