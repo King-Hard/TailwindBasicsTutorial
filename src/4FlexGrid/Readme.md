@@ -2,13 +2,18 @@
 
 1, flex - function neto is example meron tayong container then sa loob non meron tayo 3 items ngayon using flex pwede natin silang i-allign nang naka row or column syntaxt:(flex-row)(flex-col) meron din tayong gap heto naman funtion nya is maglalagay tayo ng palatandaan na nahati natin yung mga items sa loob ng container natin  
 
-items-start - para kung may specific changes tayo na gagawin.
+flex-flex-row or col - function neto naka rows or columns daw ba yung format ng mga items natin sa loob ng container.
 
-flex - row or col  
-basis - 1/2, 1/4, 1/6, 1/8, and full
-gap - numbers
-justify - center, start, and end.
-items - center, start, and end.
+basis-1/2, 1/4, 1/6, 1/8, and full. - width spacing ng boxes natin
+
+space-x-numbers - width spacing ng mga items natin sa loob ng box
+
+space-y-numbers - height spacing ng mga items natin sa loob ng box
+
+gap-numbers - function neto is gap spacing ng mga boxes natin
+
+justify-between, center, around. - spacing ng mga boxes content natin, yung between natin kung may content tayo mapupunta sila sa right and left. Sa center lahat ng contents natin ,apupunta sa gitna. Around natin may spacing na mangyayari sa left, right, and center ng contents natin.
+
 
 2, grid - 
 
@@ -22,13 +27,7 @@ grid - row-numbers or col-numbers - heto yung setting natin kung row or col ba p
 
 gap-numbers - function neto spacing between all items natin na nasa loob
 
-justify - center, start, and end. - heto naman ju-justify natin yung items natin into center, start, and end.
-
-items - center, start, and end. - same with justify
-
-
-
-
+justify - center, betweem. and around.
 
 
 
