@@ -25,9 +25,3 @@ col-span-numbers - function neto example meron ulit tayo 3 items then gusto nati
 
 grid - row-numbers or col-numbers - heto yung setting natin kung row or col ba pwesto ng mga items natin sa loob.
 
-gap-numbers - function neto spacing between all items natin na nasa loob
-
-justify - center, betweem. and around.
-
-
-
