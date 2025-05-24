@@ -1,6 +1,8 @@
 # Assigning design
 1, class="" - using class makakagawa na tayo ng designing sa loob ng element tag natin.
 
+2, npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
 # Text (50 to 900 - shade colors)
 1, text-color - syntax:(text-color-shade) - para malagyan natin ng color yung text natin need lang natin ng text minus sign color minus sign ulit then yung shade na natin example green meron tayong (50 to 900) shade of colors
 
