@@ -19,8 +19,10 @@ sm, base, lg, and xl. Sm natin is small, base is meduim, lg is large, and xl ext
 # Padding and Margin
 Sa padding and margin need lang natin gumamit ng p and m.
 
+Padding - py and px (funtion ng py padding height and px padding width)
 1, pt, pb, pr, pl, and p. Dito yung p natin is padding na sya sa buong box natin top, bottom, left, and right mat padding na. Then kung gusto naman natin gumamit ng certain padding like left meron taoyng pt, pb, pl, and pr.
 
+Margin - my and mx (function ng my padding height and mx margin width)
 2, mt, mb, ml, mr, and m. Dito yung m natin is margin nasya nung buong border and body spacing natin pero kung gusto natin na gumamit ng certain margin like left meron tayong mt, mb, ml, and mr.
 
 # Positions 
@@ -28,7 +30,7 @@ Kung maglalagay tayo ng position ng div natin deretsyo nanatin gagamitin yung fi
 1, fixed 
 2, absolute
 3, relative
-4, Meron tayong pang ayos using t, b, l, and r. Top, bottom, left, and right.
+4, Meron tayong pang ayos using: top, bottom, left, and right.
 
 # Borders and Rounded
 Sa border and rounded deretsyo na nati sila gagamitin wala silang shortcut example need natin lagayan ng raduis box natin deretsyo na tayo sa rounded.
@@ -44,5 +46,5 @@ syntax:(shadow-sm, md, lg, and xl from 1-9)
 4, animate - animate heto naman magkakroon tayo ng animation sa boxes natin or kung san man natin sya gustong gamitin.
 Meron tayong 4 animate: spin, ping, bounce, and pulse.
 
-# Images
+# Responsive
 1 
