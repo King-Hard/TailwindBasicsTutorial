@@ -23,6 +23,13 @@ Sa padding and margin need lang natin gumamit ng p and m.
 
 2, mt, mb, ml, mr, and m. Dito yung m natin is margin nasya nung buong border and body spacing natin pero kung gusto natin na gumamit ng certain margin like left meron tayong mt, mb, ml, and mr.
 
+# Positions 
+Kung maglalagay tayo ng position ng div natin deretsyo nanatin gagamitin yung fixed, absolute, or relative.
+1, fixed 
+2, absolute
+3, relative
+4, Meron tayong pang ayos using t, b, l, and r. Top, bottom, left, and right.
+
 # Borders and Rounded
 Sa border and rounded deretsyo na nati sila gagamitin wala silang shortcut example need natin lagayan ng raduis box natin deretsyo na tayo sa rounded.
 
@@ -30,4 +37,12 @@ Sa border and rounded deretsyo na nati sila gagamitin wala silang shortcut examp
 
 2, rounded-sm, base, lg, and xl 1-9. - heto naman para malagyan natin ng raduis yung border natin para magka-shape na parang pa circle need lang natin gumamit netong rounded sya yung mag sisilbing raduis natin
 
-# 
+3, shadow - kung maglalagay tayo ng shadow deretsyo na rin natin ilalagay yung word na shadow para makapaglagay tayo ng shadow sa div natin or kung san man nati nsya ilalagay.
+
+syntax:(shadow-sm, md, lg, and xl from 1-9)
+
+4, animate - animate heto naman magkakroon tayo ng animation sa boxes natin or kung san man natin sya gustong gamitin.
+Meron tayong 4 animate: spin, ping, bounce, and pulse.
+
+# Images
+1 
