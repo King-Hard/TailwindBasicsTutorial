@@ -45,15 +45,49 @@ while(true){
     }
     
     else if(choice === 3){
-        console.log("MARK TAS AS DONE");
+        console.log("MARK TASK AS DONE");
         console.log("Which task did you finish today?");
         console.log();
+        
+        let taNu = Number(prompt("Task number: "));
+        
+        for(let t in taskList){
+            if(taNu === taskList[t].taskNum){
+                let currentStatus = ("Done");
+                
+                taskList[t].taskStatus = currentStatus;
+                
+                console.log("Task Done");
+                console.log();
+            }
+            
+            else{
+                console.log("Invalid task number!");
+                console.log();
+            }
+        }
     }
     
     else if(choice === 4){
         console.log("DELETE TASK");
         console.log("Say goodbye to a task you don't need");
         console.log();
+        
+        let taNu = Number(prompt("Task number: "));
+        
+        for(let t in taskList){
+            if(taNu === taskList[t].taskNum){
+                taskList.splice(t, 1);
+                
+                console.log("Task deleted")
+                console.log();
+            }
+        
+            else{
+            console.log("Invalid task number!");
+            console.log();
+            }
+        }
     }
     
     else if(choice === 5){
