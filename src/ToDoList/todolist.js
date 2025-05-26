@@ -60,11 +60,6 @@ while(true){
                 console.log("Task Done");
                 console.log();
             }
-            
-            else{
-                console.log("Invalid task number!");
-                console.log();
-            }
         }
     }
     
@@ -81,11 +76,7 @@ while(true){
                 
                 console.log("Task deleted")
                 console.log();
-            }
-        
-            else{
-            console.log("Invalid task number!");
-            console.log();
+                break;
             }
         }
     }
