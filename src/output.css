@@ -232,6 +232,36 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
+  .top-5 {
+    top: calc(var(--spacing) * 5);
+  }
+  .top-8 {
+    top: calc(var(--spacing) * 8);
+  }
+  .top-10 {
+    top: calc(var(--spacing) * 10);
+  }
+  .right-5 {
+    right: calc(var(--spacing) * 5);
+  }
+  .left-5 {
+    left: calc(var(--spacing) * 5);
+  }
+  .left-10 {
+    left: calc(var(--spacing) * 10);
+  }
+  .left-15 {
+    left: calc(var(--spacing) * 15);
+  }
+  .left-17 {
+    left: calc(var(--spacing) * 17);
+  }
+  .left-18 {
+    left: calc(var(--spacing) * 18);
+  }
+  .left-19 {
+    left: calc(var(--spacing) * 19);
+  }
   .col-span-2 {
     grid-column: span 2 / span 2;
   }
@@ -385,6 +415,9 @@
   .h-screen {
     height: 100vh;
   }
+  .w-5 {
+    width: calc(var(--spacing) * 5);
+  }
   .w-10 {
     width: calc(var(--spacing) * 10);
   }
@@ -417,6 +450,15 @@
   }
   .w-35 {
     width: calc(var(--spacing) * 35);
+  }
+  .w-36 {
+    width: calc(var(--spacing) * 36);
+  }
+  .w-37 {
+    width: calc(var(--spacing) * 37);
+  }
+  .w-38 {
+    width: calc(var(--spacing) * 38);
   }
   .w-40 {
     width: calc(var(--spacing) * 40);
@@ -583,6 +625,10 @@
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
+  .rounded-t-2xl {
+    border-top-left-radius: var(--radius-2xl);
+    border-top-right-radius: var(--radius-2xl);
+  }
   .rounded-r-2xl {
     border-top-right-radius: var(--radius-2xl);
     border-bottom-right-radius: var(--radius-2xl);
@@ -614,6 +660,9 @@
   .border-5 {
     border-style: var(--tw-border-style);
     border-width: 5px;
+  }
+  .border-\[\#FFD700\] {
+    border-color: #FFD700;
   }
   .border-black {
     border-color: var(--color-black);
@@ -756,6 +805,12 @@
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
+  .p-15 {
+    padding: calc(var(--spacing) * 15);
+  }
+  .p-20 {
+    padding: calc(var(--spacing) * 20);
+  }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
@@ -867,6 +922,16 @@
     --tw-outline-style: none;
     outline-style: none;
   }
+  .placeholder\:bg-\[\#FFD700\] {
+    &::placeholder {
+      background-color: #FFD700;
+    }
+  }
+  .placeholder\:text-\[\#3A8DFF\] {
+    &::placeholder {
+      color: #3A8DFF;
+    }
+  }
   .placeholder\:text-gray-500 {
     &::placeholder {
       color: var(--color-gray-500);
@@ -875,6 +940,11 @@
   .placeholder\:text-violet-400 {
     &::placeholder {
       color: var(--color-violet-400);
+    }
+  }
+  .placeholder\:text-white {
+    &::placeholder {
+      color: var(--color-white);
     }
   }
   .hover\:bg-green-700 {
@@ -934,6 +1004,16 @@
   .md\:w-48 {
     @media (width >= 48rem) {
       width: calc(var(--spacing) * 48);
+    }
+  }
+  .md\:w-55 {
+    @media (width >= 48rem) {
+      width: calc(var(--spacing) * 55);
+    }
+  }
+  .md\:w-57 {
+    @media (width >= 48rem) {
+      width: calc(var(--spacing) * 57);
     }
   }
   .md\:w-96 {
