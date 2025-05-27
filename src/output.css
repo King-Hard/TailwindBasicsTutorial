@@ -891,6 +891,11 @@
       }
     }
   }
+  .md\:w-20 {
+    @media (width >= 48rem) {
+      width: calc(var(--spacing) * 20);
+    }
+  }
   .md\:w-40 {
     @media (width >= 48rem) {
       width: calc(var(--spacing) * 40);
@@ -911,9 +916,19 @@
       width: calc(var(--spacing) * 42);
     }
   }
+  .md\:w-43 {
+    @media (width >= 48rem) {
+      width: calc(var(--spacing) * 43);
+    }
+  }
   .md\:w-45 {
     @media (width >= 48rem) {
       width: calc(var(--spacing) * 45);
+    }
+  }
+  .md\:w-45\.5 {
+    @media (width >= 48rem) {
+      width: calc(var(--spacing) * 45.5);
     }
   }
   .md\:w-48 {
