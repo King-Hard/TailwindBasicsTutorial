@@ -3,6 +3,18 @@
 
 2, npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 
+3, para makapaglagay tayo ng icon sa loob ng input type need lang natin gumawa ng div then mag assign tayo ng relative postion then sa paglagay ng icon gamit lang tayo ng i then maglkagay tayo ng position then na absolute saka natin mamanipulahin yung position ng icon natin using top, bottom, left, and right.
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+fas fa-envelope - email
+fas fa-lock - password
+fas fa-user - username
+fas fa-phone - phone
+fas fa-search - search
+
+
+
 # Text (50 to 900 - shade colors)
 1, text-color - syntax:(text-color-shade) - para malagyan natin ng color yung text natin need lang natin ng text minus sign color minus sign ulit then yung shade na natin example green meron tayong (50 to 900) shade of colors
 
