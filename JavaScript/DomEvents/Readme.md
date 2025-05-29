@@ -1,45 +1,53 @@
 # Dom and Events
 
-1, document.getElementById(id name natin); - function neto is para makuha natin yung element na laman netong id natin then saka natin sya mamanipulahin.
+- Dom Manipulation
+
+1, const variable = document.getElementById or Class("id or class name natin"); - function neto is para makuha natin yung element na laman netong id natin then saka natin sya mamanipulahin.
+
+2, const variable = document.querySelector(". for class and # for id") - same funtion lang with get element by parehas lang sila na kumukuha ng element tag natin para imanipulate yung laman ng element tag natin.
+ 
+2, variable.remove(); - ul or ol tapos may li tayo sa loob ng ul na yan or ol, then gusto natin na tanggalin yung mga li sa ul natin gagamit lang tayo ng .remove();
+
+3, variable.first or lastElementChild.remove(); - heto naman kung isa lang tatanggalin natin na list na nakalagay sa loob ng ul natin.
+
+4, variable.style.background = "red"; and all available design - heto naman mag select tayo ng element tapos, iibahin natin example yung design nung lement na yon using variable.style.design = "";
+
+
+- Dom Events
+
+1, variable.addEventListener("property", function(event){
+
+} )
+
+yung function variable natin is lalagyan natin sya ng variabel.preventDefault(); - para mapanatili natin na nakalagay kung ano man yung idi-display natin text ba ganon or maglalagat tayo ng color or what.
+
+properties: click, and son on.
+
+
+- Form Validation
+
+1, gawa tayo ng conditional statement nakalagay don eh yung sa input type daw natin na email and pass eh kukunin natin yung variable.value.lenght para malaman natin kung may tinype na ba si user na mga inputs then kung wala pa maglalagay tayo ng inner.HTML na message
+
+lagay lang tayo ng div sa taas ng email input natin tas lagay tayo ng id non then kunin natin yunng element na yon using query selector  ngayon sa if sa baba non ilagay nanatin yunng variable.innerHTML = "";
+
+pano gawin:
+
+1, kunin lang muna natin lahat ng element na need natin which are email, password, message, and botton. Using const variable = document;.querySelector(# or . variable);
+
+
+2, ngayon kunin natin botton variable.addEventListener("click", funtion(variable){
+    variable.preventDefault;
+
+    if(email.value.length || password.value.legth){
+        msg.innerHTML = "Please complete details!";
+
+        setTimeout(() => document.querySelector("#msg").remove(); 3000);
+    }
+});
 
 
 
-<!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>DomEvents</title>
-
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
-            <link rel="stylesheet" href="../../src/output.css"/>
-        </head>
-        <body class="bg-gray-100 flex items-center justify-center min-h-screen">
-            <div class="border rounded-xl bg-white p-10 w-100">
-                <div class="pb-4">
-                    <h1 class="text-lg font-semibold">Welcome to Avalmeos</h1>
-                    <p class="text-sm">Log in usingthe form below.</p>
-                </div>
-
-                <label class="text-sm">Email</label>
-                <div class="border border-gray-400 p-2 rounded-md active:border-2">
-                    <i class="fas fa-user pl-2"></i>
-                    <input type="email" placeholder="Example@gmail.com" class="outline-none pl-2"/>
-                </div>
-
-                <label class="text-sm">Password</label>
-                <a href="" class="float-right text-sm underline text-blue-500 decoration-blue-500 underline-offset-4">Forgot password?</a>
-                <div class="border border-gray-400 p-2 rounded-md">
-                    <i class="fas fa-lock pl-2 "></i>
-                    <input type="email" placeholder="Password" class="outline-none pl-2"/>
-                </div>
-            </div>
 
 
 
 
-
-
-            <script src="1.js"></script>
-        </body>
-</html>
