@@ -36,7 +36,7 @@ btn.addEventListener("click", function(event){
     if(mail.value.length === 0 || pass.value.length === 0){
         msg.innerHTML = "Please complete details!";
 
-        setTimeout(() => document.querySelector("#msg").remove(), 3000)
+        setTimeout(() => document.querySelector("#msg").remove(), 3000);
     }
     else{
         myForm.submit();

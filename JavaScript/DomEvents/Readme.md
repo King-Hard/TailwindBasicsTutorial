@@ -2,7 +2,7 @@
 
 - Dom Manipulation
 
-1, const variable = document.getElementById or Class("id or class name natin"); - function neto is para makuha natin yung element na laman netong id natin then saka natin sya mamanipulahin.
+1, innerHTML = "Words"; - yung laman ng isang element natin is papalitan natin sya ng text using this method.
 
 2, const variable = document.querySelector(". for class and # for id") - same funtion lang with get element by parehas lang sila na kumukuha ng element tag natin para imanipulate yung laman ng element tag natin.
  
@@ -16,6 +16,8 @@
 - Dom Events
 
 1, variable.addEventListener("property", function(event){
+    variabel.preventDefault();
+
 
 } )
 
@@ -38,7 +40,7 @@ pano gawin:
 2, ngayon kunin natin botton variable.addEventListener("click", funtion(variable){
     variable.preventDefault;
 
-    if(email.value.length || password.value.legth){
+    if(email.value.length === 0 || password.value.legth === 0){
         msg.innerHTML = "Please complete details!";
 
         setTimeout(() => document.querySelector("#msg").remove(); 3000);
